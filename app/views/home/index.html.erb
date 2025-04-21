@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Home Page</title>
+  </head>
+
+  <body style="background-color:#fcd6db;">
+    
+    <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+ 
+    <div class="container" style="width:50%;margin:auto; height:20%;">
+      <div id="header">
+        <h1 class="rounded hset" style="background-color:#8fbc8f; border: 2px solid #5C4033;"> <%= image_tag("star.gif", :class=> "imgset2")%> Karla's Portfolio! <%= image_tag("star.gif", :class=> "imgset2")%></h1>
+      </div>
+      <div id="opening" class="hset">
+        <p>Welcome! This site is a portfolio that includes things about me, my background, schools, hobbies, and other fun stuff! I hope you stay around to see it all!</p>
+      </div>
+    </div>
+
+<!-- ----------------------------------- -->
+
+    <div class="container">
+
+      <div class="row">
+
+         <div class="col-6">
+          <div class="card cset">
+            <div class="card-header rounded-top" style="font-size:25px;">
+              <h><i class="far fa-star"></i> Intro:</h>
+            </div>
+            <div class="card-body rounded-bottom" style="background-color:#F5F5F5; font-size:18px;">
+              <p>My name is Karla! <%= image_tag("wolf.gif", :class=> "imgset2")%> I'm 19 and I'm from Brooklyn, NY. I'm currently a student at Conn. I'm double-majoring in Computer Science and Music Tech. I'm currently working at the school's library at the circulation desk. And there's so much more to know.</p>
+            </div>
+          </div>
+          <div class="card cset" style="margin-top:20px;">
+            <div class="card-body rounded" style="background-color:#F5F5F5; text-align:center;">
+              <p><i class="far fa-snowflake"></i> To contuine reading about seeing more content on school and work look at the other tabs! And if you're interested you can take a further look into my hobbies and music tabs. If there are any questions reach out via email at: kgononven@conncoll.edu <i class="far fa-snowflake"></i></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card cset">
+            <div class="card-body">
+              <div id="carouselAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <%= image_tag("nightcity.jpg", :class=>"d-block w-100")%>
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Picture by me.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" style="size:100px 100px;">
+                    <%= image_tag("wshtsq.jpg", :class=> "d-block w-100")%>
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Picture by me.</p>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+<!-- --------------------------------------------------------------------------- -->
+    <hr>
+    <div class="container text-center">
+      <span class="text-muted" style="color:#5C4033;"></span> ! <i class="fas fa-sun"></i> <i class="far fa-moon"></i><i class="fas fa-cat"></i> !
+    </div>
+
+  <!-- -------------------------------------------------------------- -->
+
+  </body>
+
+</html>

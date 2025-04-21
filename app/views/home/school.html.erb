@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title> School Page </title>
+  </head>
+
+  <body style="background-color:#fcd6db;">
+
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+ 
+    <div class="container" style="width:50%;margin:auto; height:20%;">
+      <div>
+        <h1 class="rounded hset" style="background-color:#8fbc8f; border: 2px solid #5C4033;"> <%= image_tag("star.gif", :class=> "imgset2")%> School/Education! <%= image_tag("star.gif", :class=> "imgset2")%></h1>
+      </div>
+      <div class="hset">
+        <p>My school/education history and even fututre plans of school.</p>
+      </div>
+    </div>
+
+<!-- ----------------------------------- -->
+<!-- -------------------------------------------------CARDS--------------------------------------------------------------------------------- -->
+
+<!-- add a link to each school -->
+<!-- add pics as a carasel and add gifs or buttons -->
+
+<div class="container-fluid">
+  <div class="row" style="padding-bottom:15px; padding-top:10px;">
+
+    <div class="col-3 d-flex justify-content-start">
+      <div class="card cset">
+        <div class="card-header rounded-top" style="background-color:#8FBC8F;"><i class="fas fa-graduation-cap"></i> High School</div>
+        <div class="card-body rounded-bottom" style="background-color:#F5F5F5">
+          <h5 class="card-title" style="color:#5C4033;"><i class="far fa-star"></i> UAI Brooklyn, NY</h5>
+          <p class="card-text" style="color:#5C4033; font-size:15px;">High school is still fresh to me. It's only been less than 2 years since I graduated. In this school I actually was only there for 3 years but I still was able to quickly make freinds and connection. I was on Honor Roll for all 3 years that I was there.</p>
+          <button class="bpset rounded"><a class="btn bpset" href="https://www.uainstitute.org/" target="_blank" role="button">Visit school web!</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="card cset">
+        <div class="card-body">
+          <div id="carouselAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= image_tag("hslib.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("hstrain.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("artclasshs.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("hscap.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-3">
+      <div class="card cset">
+        <div class="card-header rounded-top" style="background-color:#8FBC8F;"><i class="fas fa-laptop"></i> College</div>
+        <div class="card-body rounded-bottom" style="background-color:#F5F5F5">
+          <h5 class="card-title" style="color:#5C4033;"><i class="far fa-star"></i> Conn Coll New London, CT</h5>
+          <p class="card-text" style="color:#5C4033; font-size:15x;">I'm currerntly studying at Conn! I'm a sophmore in my second semester. I picked Conn for it's curriculum and courses. But I'd be lying if how pretty campus is was also a playing factor. I have never seen stars until I moved to Conn. I've learned a lot so far not just in class. And I'm set to graduate in May 2027!</p>
+          <button class="bpset rounded"><a class="btn bpset" href="https://www.conncoll.edu/" target="_blank" role="button">Visit school web!</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="card cset">
+        <div class="card-body">
+          <div id="carouselAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= image_tag("gardenconn.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("pinkconn.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("windconn.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide="next">
+                <span class="
+                carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="row">
+
+    <div class="col-3">
+      <div class="card cset">
+        <div class="card-body">
+          <div id="carouselAutoplaying4" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= image_tag("vtwelcome.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("midname.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("midclass.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+     <div class="card cset" >
+      <div class="card-header rounded-top" style="background-color:#8FBC8F;"><i class="far fa-sun"></i> Summer Program</div>
+      <div class="card-body rounded-bottom" style="background-color:#F5F5F5">
+        <h5 class="card-title" style="color:#5C4033;"><i class="far fa-star"></i> Middlebury Language School of Korean</a> Middlebury, VT</h5>
+        <p class="card-text" style="color:#5C4033; font-size:15px;">In summer of 2024 I went to Middlebury College to their well known language program. There I spent 8 weeks learning Korean. One of the programs core vaules was their language plegde that all students singed, stating that for the full 8 weeks they would only speak the language the were learning. It was a great program with a few ups and downs but I was able to improve my language skills and make a super close friend that I still speak to regularly.</p>
+        <button class="bpset rounded"><a class="btn bpset" href="https://www.middlebury.edu/language-schools/languages/korean" target="_blank" role="button">Visit school web!</a>
+        </button>
+      </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="card cset rounded">
+        <div class="card-body">
+          <p>(There are no pictures yet for Ewha but I will have plently to share one day!)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="card cset">
+        <div class="card-header rounded-top" style="background-color:#8FBC8F;"><i class="fas fa-plane-departure"></i> Study Abroad</div>
+        <div class="card-body rounded-bottom" style="background-color:#F5F5F5;">
+          <h5 class="card-title" style="color:#5C4033;"><i class="far fa-star"></i> Ewha Womans University Seoul, South Korea</h5>
+          <p class="card-text" style="color:#5C4033; font-size:15px;">For Spring 2026 I plan on going to Ewha for my study abroad experience. Right now I'm planning to take at least two CS classes, an art class, a language class, and a history class. With middlebury and indiviudal language studying I've been getting ready to go to South Korea. I've been wanting to travel abroad my whole life and soon I'll be able to live this experience!</p>
+          <button class="bpset rounded"><a class="btn bpset" href="http://oia.ewha.ac.kr/oia/index.do" target="_blank" role="button">Visit school web!</a>
+        </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ----------------------------------END--------------------------------------------------------------------- -->
+
+
+<hr>
+    <div class="container text-center">
+      <span class="text-muted" style="color:#5C4033;"></span> ! <i class="fas fa-sun"></i> <i class="far fa-moon"></i><i class="fas fa-cat"></i> !
+    </div>
+
+    
+  </body>
+
+</html>

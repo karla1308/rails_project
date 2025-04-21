@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Hobbies Page</title>
+  </head>
+
+  <body style="background-color:#fcd6db;">
+    
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+    
+
+  <div class="container" style="width:50%;margin:auto; height:20%;">
+      <div>
+        <h1 class="rounded hset" style="background-color:#8fbc8f; border: 2px solid #5C4033;"> <%= image_tag("star.gif", :class=> "imgset2")%> Hobbies! <%= image_tag("star.gif", :class=> "imgset2")%></h1>
+      </div>
+      <div class="hset">
+        <p>Just some hobbies, anything I do on my free time!</p>
+      </div>
+  </div>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+
+  <div class="container-fluid">
+    <div class="row" style="padding-bottom:15px; padding-top:10px;">
+
+      <div class="col-3 d-flex justify-content-start">
+        <div class="card cset">
+          <div class="card-header rounded-top" style="background-color:#8FBC8F;"><i class="fas fa-camera-retro"></i> Photgraphy</div>
+          <div class="card-body rounded-bottom" style="background-color:#F5F5F5">
+            <p class="card-text" style="color:#5C4033; font-size:15px;">For a really long time I've enjoyed photography. In middle school I was in a club that showed me a lot and I learned new skills and how to use a camera. Since then I really try to take nice pictures for myself and memories. If something looks pretty I will be taking a picture.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-3">
+      <div class="card cset rounded">
+        <div class="card-body">
+          <div id="carouselAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= image_tag("daycity.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("midroad.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("sunrise.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("water.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="col-3">
+      <div class="card cset">
+        <div class="card-header rounded-top" style="background-color:#8FBC8F;"><i class="far fa-credit-card"></i> Collecting</div>
+        <div class="card-body rounded-bottom" style="background-color:#F5F5F5">
+          <p class="card-text" style="color:#5C4033; font-size:15x;">I really like collecting things that I like. These things range from crystals, figures, toys, and albums. The one in the picture is just a small section in my dorm room but back home I have shelves of more cystals, toys, albums, and plushies, along with many posters and pictuers all over my walls.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="card cset rounded">
+        <div class="card-body">
+          <div id="carouselAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= image_tag("collect.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("albumcoll.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+   <div class="row">
+
+    <div class="col-3">
+      <div class="card cset rounded">
+        <div class="card-body">
+          <div id="carouselAutoplaying4" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= image_tag("kread.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("chk.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("notesk.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+     <div class="card cset" >
+      <div class="card-header rounded-top" style="background-color:#8FBC8F;"><i class="fas fa-globe-asia"></i> Studying Korean</div>
+      <div class="card-body rounded-bottom" style="background-color:#F5F5F5">
+        <p class="card-text" style="color:#5C4033; font-size:15px;">I've been studying and learning Korean since Covid times! Since then I've been slowly progressing but with Middlebury and more reasouses now I've been able to imporve a lot. I still study regualrly on my own and in a small group weekly.</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="card cset rounded">
+        <div class="card-body">
+          <div id="carouselAutoplaying5" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= image_tag("starbag.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("flowerhead.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="size:100px 100px;">
+                <%= image_tag("heartbag.jpg", :class=>"d-block w-100")%>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Picture by me.</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying5" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying5" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="card cset">
+        <div class="card-header rounded-top" style="background-color:#8FBC8F;"><i class="fas fa-shopping-bag"></i> Crochet</div>
+        <div class="card-body rounded-bottom" style="background-color:#F5F5F5;">
+          <p class="card-text" style="color:#5C4033; font-size:15px;">I've been crocheting since high school! I leanred after fidning out my friend knew how to do it and I wanted to do something while I was bored during Covid time. I've made a lot of things for myself and as gifts for freinds. These pictures are just a few projects I was able to find that I still have.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+
+  <hr>
+    <div class="container text-center">
+      <span class="text-muted" style="color:#5C4033;"></span> ! <i class="fas fa-sun"></i> <i class="far fa-moon"></i><i class="fas fa-cat"></i> !
+    </div>
+
+  </body>
+
+</html>
